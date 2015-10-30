@@ -4,13 +4,23 @@ body {
 }
 .edit-area {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
   background-color: #191919;
   color: #DDDDDD;
   resize: none;
   border-color: #000000;
   border-radius: 5px;
   border-width: 1px;
+  border-style: inset;
   width: 50%;
   height: 50%;
   outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+}
+@-moz-document url-prefix() {
+  .edit-area {
+    border: none;
+  }
 }
