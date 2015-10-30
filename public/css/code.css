@@ -5,6 +5,7 @@ body {
 
 .edit-area {
     background-color: #191919;
+    color: #DDDDDD;
     resize: none;
     border-color: #000000;
     border-radius: 5px;

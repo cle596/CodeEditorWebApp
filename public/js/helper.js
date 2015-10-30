@@ -14,3 +14,9 @@ function getAllAttributesById(node) {
   }
   return arr;
 }
+
+function getMembersOfObject(object){
+  for (var x in object){
+    console.log(x);
+  }
+}
