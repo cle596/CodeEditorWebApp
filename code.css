@@ -1,0 +1,9 @@
+.edit-area {
+    resize: none;
+    border-color: #CCC;
+    border-radius: 5px;
+    border-width: 3px;
+    width: 50%;
+    height: 50%;
+    outline: none;
+}
