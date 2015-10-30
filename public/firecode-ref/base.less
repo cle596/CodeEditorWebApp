@@ -1,0 +1,199 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: rgba(61, 61, 61, 0.33);
+}
+
+.comment {
+  color: #6d6d6d;
+}
+
+.string {
+  color: #97d8ea;
+}
+
+.constant.numeric {
+  color: #fc9354;
+}
+
+.constant.language {
+  color: #fc9354;
+}
+
+.constant.character, .constant.other {
+  color: #fc9354;
+}
+
+.variable {
+}
+
+.keyword {
+  color: #f63249;
+}
+
+.storage {
+  color: #f63249;
+}
+
+.storage.type {
+  font-style: italic;
+  color: #73c3d2;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: #2e98e2;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  text-decoration: underline;
+  color: #2e98e2;
+}
+
+.entity.name.function {
+  color: #2e98e2;
+}
+
+.variable.parameter {
+  font-style: italic;
+  color: #fc9354;
+}
+
+.entity.name.tag {
+  color: #f63249;
+}
+
+.entity.other.attribute-name {
+  color: #2e98e2;
+}
+
+.support.function {
+  color: #8ecfdb;
+}
+
+.support.constant {
+  color: #8ecfdb;
+}
+
+.support.type, .support.class {
+  font-style: italic;
+  color: #8ecfdb;
+}
+
+.support.other.variable {
+}
+
+.support.other.namespace, .entity.name.type.namespace {
+  color: #FFB2F9;
+}
+
+.support.other.namespace.use-as.php {
+  color: #66D9EF;
+}
+
+.variable.language.namespace.php {
+  color: #D66990;
+}
+
+.punctuation.separator.inheritance.php {
+  color: #F92672;
+}
+
+.support.function.misc.css, .support.constant.property-value.css, .support.constant.font-name.css {
+  color: #FFEE99;
+}
+
+.meta.tag.template.value.twig, .meta.tag.template.block.twig {
+  color: #CD5AC5;
+}
+
+.keyword.control.twig {
+  color: #E05D8C;
+}
+
+.variable.other.twig {
+  color: #E5A5E0;
+}
+
+.variable.other.property.twig {
+  color: #FFE1FC;
+}
+
+.constant.language.twig {
+  color: #FFD2A6;
+}
+
+.constant.numeric.twig {
+  color: #FFD0FB;
+}
+
+.support.function.twig {
+  color: #90E7F7;
+}
+
+.meta.function-call.other.twig {
+  color: #FAB85A;
+}
+
+.meta.function-call.twig {
+  color: #FAB85A;
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #f92649;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #FF80F4;
+}
