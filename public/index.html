@@ -10,6 +10,8 @@
 <body>
   <div id="menu-div">
     <button class="menu-btn" id="file">File</button>
+    <button class="menu-btn" id="edit">Edit</button>
+    <button class="menu-btn" id="help">Help</button>
     <ul class='menu-list' id='file-menu'>
       <li class="menu-opt file-menu-opt">
         <span><a>New</a></span>
@@ -18,13 +20,22 @@
         <span><a>Save</a></span>
       </li>
     </ul>
-
-  <button class="menu-btn" id="edit">Edit</button>
-  <ul class='menu-list' id='edit-menu'>
-    <li class="menu-opt edit-menu-opt"><span><a>Copy</a></span></li>
-    <li class="menu-opt edit-menu-opt"><span><a>Paste</a></span></li>
-  </ul>
-
+    <ul class='menu-list' id='edit-menu'>
+      <li class="menu-opt edit-menu-opt">
+        <span><a>Copy</a></span>
+      </li>
+      <li class="menu-opt edit-menu-opt">
+        <span><a>Paste</a></span>
+      </li>
+    </ul>
+    <ul class='menu-list' id='help-menu'>
+      <li class="menu-opt help-menu-opt">
+        <span><a>About</a></span>
+      </li>
+      <li class="menu-opt help-menu-opt">
+        <span><a>Guide</a></span>
+      </li>
+    </ul>
   </div>
 
   <textarea class="edit-area" id="edit-space" placeholder="Begin your code here..." spellcheck="false"></textarea>

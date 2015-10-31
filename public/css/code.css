@@ -8,7 +8,7 @@ body {
   padding-bottom: 2px;
 }
 .menu-opt:hover {
-  background-color: #555;
+  background-color: #333;
 }
 .menu-list {
   position: absolute;
