@@ -2,8 +2,13 @@ body {
   background-color: #222;
   color: #F8F8F2;
 }
-.menu-opt{
+.menu-opt {
   display: none;
+  padding-top: 0px;
+  padding-bottom: 2px;
+}
+.menu-opt:hover {
+  background-color: #555;
 }
 .menu-list {
   position: absolute;
@@ -12,19 +17,24 @@ body {
   font-size: 14px;
   width: 40%;
   cursor: pointer;
-  padding-top:0;
-  padding-left: 0;
-  list-style-type:none;
+  padding-top: 0;
+  padding-left: 10px;
+  list-style-type: none;
 }
 .menu-btn {
+  highlight: none;
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   cursor: pointer;
   padding-left: 0;
-  padding-bottom: 10px;
+  padding-bottom: 2px;
+  height: 0;
   border: 0;
   background-color: #222;
   color: #DDD;
+}
+#menu-div{
+  padding-bottom: 20px;
 }
 .edit-area {
   width: 100%;
