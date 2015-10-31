@@ -15,8 +15,8 @@ function getAllAttributesById(node) {
   return arr;
 }
 
-function getMembersOfObject(object){
-  for (var x in object){
+function getMembersOfElement(element){
+  for (var x in document.getElementById(element)){
     console.log(x);
   }
 }

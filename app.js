@@ -7,4 +7,4 @@ app.use(express.static('public'));
 app.get('/',function (req,res){
 });
 
-app.listen(8000);
+app.listen(8000,'0.0.0.0');
