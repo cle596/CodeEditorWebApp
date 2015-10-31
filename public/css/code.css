@@ -3,21 +3,22 @@ body {
   color: #F8F8F2;
 }
 .edit-area {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 16px;
-  background-color: #191919;
-  color: #DDDDDD;
-  resize: none;
+  width: 100%;
+  height: 50%;
   border-color: #000000;
   border-radius: 5px;
   border-width: 1px;
   border-style: inset;
-  width: 100%;
-  height: 50%;
   outline: none;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
+  background-color: #191919;
+  color: #DDDDDD;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.0425em;
+  resize: none;
 }
 @-moz-document url-prefix() {
   .edit-area {
