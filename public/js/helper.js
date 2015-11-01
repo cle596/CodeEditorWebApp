@@ -1,5 +1,7 @@
 //(function(){
 
+"use strict";
+
 function checkIfElementLoaded(element) {
   var c = setInterval(function() {
     if (document.querySelector(element) != null) {
