@@ -9,13 +9,17 @@
 
 <body>
   <div id="menu-div">
-    <button class="menu-btn" id="file">File</button>
-    <button class="menu-btn" id="edit">Edit</button>
-    <button class="menu-btn" id="help">Help</button>
-    <ul class='menu-list' id='file-menu'>
-      <li class="menu-opt file-menu-opt">
-        <span><a>New</a></span>
+    <ul class='menu-bar'>
+      <li class="bar-opt file-bar-opt"><button class="menu-btn" id="file">File</button></li>
+      <li class="bar-opt edit-bar-opt">
+        <button class="menu-btn" id="edit">Edit</button>
       </li>
+      <li class="bar-opt help-bar-opt">
+        <button class="menu-btn" id="help">Help</button>
+      </li>
+    </ul>
+    <ul class='menu-list' id='file-menu'>
+      <li class="menu-opt file-menu-opt"><span><a>New</a></span></li>
       <li class="menu-opt file-menu-opt">
         <span><a>Save</a></span>
       </li>
@@ -39,7 +43,6 @@
   </div>
 
   <textarea class="edit-area" id="edit-space" placeholder="Begin your code here..." spellcheck="false"></textarea>
-
 
   <script src="js/menu.js"></script>
   <script src="js/edit-space.js"></script>
