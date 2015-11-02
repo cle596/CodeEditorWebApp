@@ -10,10 +10,7 @@ var typer = require('media-typer');
 var bodyParser = require('body-parser');
 var app = express();
 var session_option = require("./session-option");
-app.use(session(session_option)); //do session management first
-app.use(bodyParser.raw({
-  limit: '10mb'
-}));
+app.use(session(session_option)); //order matters
 app.use(express.static('public'));
 app.post('/push', function(req, res) {
   var push_data = "";
@@ -35,6 +32,6 @@ app.post('/push', function(req, res) {
       }
     });
   });
-  res.send("synced");
+  res.send("Saved to cloud.");
 });
 app.listen(8000, '0.0.0.0');
