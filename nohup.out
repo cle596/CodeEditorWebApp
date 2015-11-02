@@ -448,3 +448,122 @@
 [32m[nodemon] starting `node app.js`[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node app.js`[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'aws-sdk'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/ubuntu/code-editor/app.js:1:73)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+{ [CredentialsError: Missing credentials in config]
+  message: [Getter/Setter],
+  code: 'CredentialsError',
+  time: Sun Nov 01 2015 21:24:30 GMT+0000 (UTC),
+  originalError: 
+   { message: 'Could not load credentials from any providers',
+     code: 'CredentialsError',
+     time: Sun Nov 01 2015 21:24:30 GMT+0000 (UTC),
+     originalError: { message: 'Unexpected token <' } } }
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+{ [CredentialsError: Missing credentials in config]
+  message: [Getter/Setter],
+  code: 'CredentialsError',
+  time: Sun Nov 01 2015 22:02:30 GMT+0000 (UTC),
+  originalError: 
+   { message: 'Could not load credentials from any providers',
+     code: 'CredentialsError',
+     time: Sun Nov 01 2015 22:02:30 GMT+0000 (UTC),
+     originalError: { message: 'Unexpected token <' } } }
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+Successfully uploaded data to myBucket/myKey
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+Successfully uploaded data to myBucket/myKey
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+undefined
+Successfully uploaded data to myBucket/myKey
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at net.js:1143:9
+    at dns.js:72:18
+    at process._tickDomainCallback (node.js:459:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+undefined
+Successfully uploaded data to myBucket/myKey
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:901:11)
+    at Server._listen2 (net.js:1039:14)
+    at listen (net.js:1061:10)
+    at net.js:1143:9
+    at dns.js:72:18
+    at process._tickDomainCallback (node.js:459:13)
+    at Function.Module.runMain (module.js:499:11)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
