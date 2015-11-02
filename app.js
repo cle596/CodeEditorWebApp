@@ -5,34 +5,37 @@ var crypto = require('crypto');
 var express = require('express');
 var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
-var cookieParser = require('cookie-parser');
+var getRawBody = require('raw-body');
+var typer = require('media-typer');
+var bodyParser = require('body-parser');
 var app = express();
 var session_option = require("./session-option");
-console.log(session_option);
 app.use(session(session_option)); //do session management first
-app.use(function (req, res, next) {
-  //console.log(req.session.id); will print per request to all files
-  next();
-});
+app.use(bodyParser.raw({
+  limit: '10mb'
+}));
 app.use(express.static('public'));
 app.post('/push', function(req, res) {
+  var push_data = "";
   req.on("data", function(data) {
-    console.log(data.toString());
+    push_data += data;
+    console.log(data.toString().slice(0,10));
+  });
+  req.on("end", function() {
     var params = {
       Bucket: 'code-editor/brosf',
-      Key: 'shit',
-      Body: data.toString()
+      Key: 'textdoc',
+      Body: push_data.toString()
     };
-    console.log(params.Body);
     s3.putObject(params, function(err, data) {
       if (err) {
         console.log(err);
       } else {
-        console.log("Uploaded: " + params.Key + " " + params.Body);
+        console.log("Uploaded to: " + params.Key);
+        push_data = "";
       }
     });
   });
-  //res.send(req.session.id);
   res.send("synced");
 });
 app.listen(8000, '0.0.0.0');

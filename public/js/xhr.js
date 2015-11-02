@@ -7,7 +7,8 @@ xhttp.onreadystatechange = function() {
 }
 
 document.getElementById("push").onclick = function(e){
+  var data = document.getElementById("edit-space").value;
   xhttp.open("POST","push",true);
   xhttp.setRequestHeader("Content-type","text/plain");
-  xhttp.send(document.getElementById("edit-space").value);
+  xhttp.send(data);
 }

@@ -1675,3 +1675,642 @@ SyntaxError: Unexpected token -
   rolling: true,
   saveUninitialized: true,
   unset: 'keep' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'media-typer'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/ubuntu/code-editor/app.js:9:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+{ name: 'mycookie',
+  genid: [Function],
+  cookie: { secure: false, httpOnly: false, maxAge: 60000 },
+  store: 
+   { prefix: 'sess:',
+     serializer: {},
+     client: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        address: 'localhost:6379',
+        connection_option: [Object],
+        connection_id: 1,
+        connected: false,
+        ready: false,
+        connections: 0,
+        should_buffer: false,
+        max_attempts: 0,
+        command_queue: [Object],
+        offline_queue: [Object],
+        connect_timeout: 3600000,
+        enable_offline_queue: true,
+        retry_max_delay: null,
+        retry_timer: null,
+        retry_totaltime: 0,
+        retry_delay: 200,
+        retry_backoff: 1.7,
+        attempts: 1,
+        pub_sub_mode: false,
+        subscription_set: {},
+        monitoring: false,
+        closing: false,
+        server_info: {},
+        auth_pass: undefined,
+        parser_module: null,
+        selected_db: null,
+        old_state: null,
+        pipeline: 0,
+        options: [Object],
+        stream: [Object] },
+     ttl: undefined,
+     disableTTL: undefined },
+  secret: 'ejawofjewaoigjaweoigjwega',
+  resave: true,
+  rolling: true,
+  saveUninitialized: true,
+  unset: 'keep' }
+TypeError: argument string is required
+    at Object.parse (/home/ubuntu/code-editor/node_modules/media-typer/index.js:141:11)
+    at app.post.req.on.params.Bucket (/home/ubuntu/code-editor/app.js:18:21)
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/code-editor/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:271:10)
+    at session (/home/ubuntu/code-editor/node_modules/express-session/index.js:402:7)
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:312:13)
+TypeError: argument string is required
+    at Object.parse (/home/ubuntu/code-editor/node_modules/media-typer/index.js:141:11)
+    at app.post.req.on.params.Bucket (/home/ubuntu/code-editor/app.js:18:21)
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/code-editor/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/code-editor/node_modules/express-session/index.js:437:7
+    at Command.callback (/home/ubuntu/code-editor/node_modules/connect-redis/lib/connect-redis.js:146:14)
+    at RedisClient.return_reply (/home/ubuntu/code-editor/node_modules/redis/index.js:642:25)
+TypeError: argument string is required
+    at Object.parse (/home/ubuntu/code-editor/node_modules/media-typer/index.js:141:11)
+    at app.post.req.on.params.Bucket (/home/ubuntu/code-editor/app.js:18:21)
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/code-editor/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/code-editor/node_modules/express-session/index.js:437:7
+    at Command.callback (/home/ubuntu/code-editor/node_modules/connect-redis/lib/connect-redis.js:146:14)
+    at RedisClient.return_reply (/home/ubuntu/code-editor/node_modules/redis/index.js:642:25)
+TypeError: argument string is required
+    at Object.parse (/home/ubuntu/code-editor/node_modules/media-typer/index.js:141:11)
+    at app.post.req.on.params.Bucket (/home/ubuntu/code-editor/app.js:18:21)
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/code-editor/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/code-editor/node_modules/express-session/index.js:437:7
+    at Command.callback (/home/ubuntu/code-editor/node_modules/connect-redis/lib/connect-redis.js:146:14)
+    at RedisClient.return_reply (/home/ubuntu/code-editor/node_modules/redis/index.js:642:25)
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+{ name: 'mycookie',
+  genid: [Function],
+  cookie: { secure: false, httpOnly: false, maxAge: 60000 },
+  store: 
+   { prefix: 'sess:',
+     serializer: {},
+     client: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        address: 'localhost:6379',
+        connection_option: [Object],
+        connection_id: 1,
+        connected: false,
+        ready: false,
+        connections: 0,
+        should_buffer: false,
+        max_attempts: 0,
+        command_queue: [Object],
+        offline_queue: [Object],
+        connect_timeout: 3600000,
+        enable_offline_queue: true,
+        retry_max_delay: null,
+        retry_timer: null,
+        retry_totaltime: 0,
+        retry_delay: 200,
+        retry_backoff: 1.7,
+        attempts: 1,
+        pub_sub_mode: false,
+        subscription_set: {},
+        monitoring: false,
+        closing: false,
+        server_info: {},
+        auth_pass: undefined,
+        parser_module: null,
+        selected_db: null,
+        old_state: null,
+        pipeline: 0,
+        options: [Object],
+        stream: [Object] },
+     ttl: undefined,
+     disableTTL: undefined },
+  secret: 'ejawofjewaoigjaweoigjwega',
+  resave: true,
+  rolling: true,
+  saveUninitialized: true,
+  unset: 'keep' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+{ name: 'mycookie',
+  genid: [Function],
+  cookie: { secure: false, httpOnly: false, maxAge: 60000 },
+  store: 
+   { prefix: 'sess:',
+     serializer: {},
+     client: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        address: 'localhost:6379',
+        connection_option: [Object],
+        connection_id: 1,
+        connected: false,
+        ready: false,
+        connections: 0,
+        should_buffer: false,
+        max_attempts: 0,
+        command_queue: [Object],
+        offline_queue: [Object],
+        connect_timeout: 3600000,
+        enable_offline_queue: true,
+        retry_max_delay: null,
+        retry_timer: null,
+        retry_totaltime: 0,
+        retry_delay: 200,
+        retry_backoff: 1.7,
+        attempts: 1,
+        pub_sub_mode: false,
+        subscription_set: {},
+        monitoring: false,
+        closing: false,
+        server_info: {},
+        auth_pass: undefined,
+        parser_module: null,
+        selected_db: null,
+        old_state: null,
+        pipeline: 0,
+        options: [Object],
+        stream: [Object] },
+     ttl: undefined,
+     disableTTL: undefined },
+  secret: 'ejawofjewaoigjaweoigjwega',
+  resave: true,
+  rolling: true,
+  saveUninitialized: true,
+  unset: 'keep' }
+
+Error: Most middleware (like bodyParser) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/home/ubuntu/code-editor/node_modules/express/lib/express.js:99:13)
+    at Object.<anonymous> (/home/ubuntu/code-editor/app.js:27:17)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+Egypt's Ministry of Civil Aviation has released a photo of a flight data recorder from downed Kogalymavia Flight 9268 as part of the investigation into Saturday's crash over the Sinai Peninsula.
+
+Russian investigators have determined the data recorders, or "black boxes," are in good condition, the state-run TASS news agency reported earlier.
+
+Photo released by Egypt&#39;s Ministry of Civil Aviation.
+Photo released by Egypt's Ministry of Civil Aviation.
+[Previous, story posted 7:09 a.m. ET]
+
+The only reasonable explanation for the crash of a Russian passenger jet in Egypt is "an external influence," an executive from the airline that operated the flight said Monday, stressing that planes don't just break apart in midair.
+
+Kogalymavia Flight 9268 broke into pieces before it hit the ground in a remote area of Egypt's restive Sinai Peninsula on Saturday, killing all 224 people on board.
+
+The executive was not specific about what he meant by an external influence. Experts say it is too early to know for certain what caused the plane to break up at the start of what could be a lengthy investigation.
+
+Russian plane crashes in Egypt
+21 photos: Russian plane crashes in Egypt
+"We exclude technical problems and reject human error," Alexander Smirnov, a Kogalymavia airline official, said at a Moscow news conference as he discussed possible causes of the crash.
+
+He added that the crew did not issue any warnings or communications during the final moments, indicating that the flight crew must have been disabled and not able to radio out.
+
+However, Smirnov said that while the plane's flight and voice data recorders had been recovered, they had not been read or decoded.
+
+First victims&#39; bodies arrive in Russia
+
+First victims' bodies arrive in Russia 02:14
+Officials have played down an apparent claim by Islamic militants in Sinai that they brought down the Airbus A321-200, saying technical failure is the most likely reason for the crash.
+
+Here's where things stand:
+
+THE FLIGHT
+Flight 9268 was on its way from the Egyptian resort of Sharm el-Sheikh to St. Petersburg early Saturday when it dropped off radar about 23 minutes into the flight, Egyptian officials say.
+
+
+Air traffic controllers apparently didn't receive any distress calls from the pilots. "There was nothing abnormal before the plane crash," Egyptian Civil Aviation Minister Hossam Kamel said Saturday. "It suddenly disappeared from the radar."
+
+CNN aviation correspondent Richard Quest said it was "unusual" for an aircraft to go down roughly 20 minutes into a flight.
+
+Richard Quest: Russian plane crashed at what should have been flight&#39;s safest point
+Russian plane crash: Quest finds it mysterious
+"At this point, a plane is on autopilot. It's reaching its initial cruising altitude, and there is little that can or should go wrong," he wrote in an analysis.
+
+But the website Flightradar24, which tracks aircraft around the world, said it had received data from the Russian plane suggesting sharp changes in altitude and a dramatic decrease in ground speed before the signal was lost.
+
+"It's disturbing to me. It indicates to me that something occurred possibly in the way of aerodynamic stall. I mean, an airplane just cannot fly at those lower speeds," said CNN aviation analyst Les Abend, although he cautioned that the Flightradar information was very preliminary.
+
+Analysis: Plane crashed at what should have been flight's safest point
+
+THE CRASH
+"Disintegration of the fuselage took place in the air, and the fragments are scattered around a large area" covering about 20 square kilometers (8 square miles), Viktor Sorochenko, executive director of Russia's Interstate Aviation Committee, told reporters Sunday.
+
+Learning that the plane broke into pieces while in the air helps reduce the list of possible causes of the crash, but there are still plenty of scenarios, said CNN aviation analyst Peter Goelz.
+
+Russian jet crash investigation: The key question
+Russian jet crash investigation -- the key question
+"It narrows it down a little bit, but there are a number of issues that could have affected this plane," said Goelz, a former managing director of the U.S. National Transportation Safety Board, or NTSB. "And terrorism has not been ruled out."
+
+He suggested the disaster could have resulted from "some sort of catastrophic failure, perha
+Egypt's Ministry of Civil Aviation has released a photo of a flight data recorder from downed Kogalymavia Flight 9268 as part of the investigation into Saturday's crash over the Sinai Peninsula.
+
+Russian investigators have determined the data recorders, or "black boxes," are in good condition, the state-run TASS news agency reported earlier.
+
+Photo released by Egypt&#39;s Ministry of Civil Aviation.
+Photo released by Egypt's Ministry of Civil Aviation.
+[Previous, story posted 7:09 a.m. ET]
+
+The only reasonable explanation for the crash of a Russian passenger jet in Egypt is "an external influence," an executive from the airline that operated the flight said Monday, stressing that planes don't just break apart in midair.
+
+Kogalymavia Flight 9268 broke into pieces before it hit the ground in a remote area of Egypt's restive Sinai Peninsula on Saturday, killing all 224 people on board.
+
+The executive was not specific about what he meant by an external influence. Experts say it is too early to know for certain what caused the plane to break up at the start of what could be a lengthy investigation.
+
+Russian plane crashes in Egypt
+21 photos: Russian plane crashes in Egypt
+"We exclude technical problems and reject human error," Alexander Smirnov, a Kogalymavia airline official, said at a Moscow news conference as he discussed possible causes of the crash.
+
+He added that the crew did not issue any warnings or communications during the final moments, indicating that the flight crew must have been disabled and not able to radio out.
+
+However, Smirnov said that while the plane's flight and voice data recorders had been recovered, they had not been read or decoded.
+
+First victims&#39; bodies arrive in Russia
+
+First victims' bodies arrive in Russia 02:14
+Officials have played down an apparent claim by Islamic militants in Sinai that they brought down the Airbus A321-200, saying technical failure is the most likely reason for the crash.
+
+Here's where things stand:
+
+THE FLIGHT
+Flight 9268 was on its way from the Egyptian resort of Sharm el-Sheikh to St. Petersburg early Saturday when it dropped off radar about 23 minutes into the flight, Egyptian officials say.
+
+
+Air traffic controllers apparently didn't receive any distress calls from the pilots. "There was nothing abnormal before the plane crash," Egyptian Civil Aviation Minister Hossam Kamel said Saturday. "It suddenly disappeared from the radar."
+
+CNN aviation correspondent Richard Quest said it was "unusual" for an aircraft to go down roughly 20 minutes into a flight.
+
+Richard Quest: Russian plane crashed at what should have been flight&#39;s safest point
+Russian plane crash: Quest finds it mysterious
+"At this point, a plane is on autopilot. It's reaching its initial cruising altitude, and there is little that can or should go wrong," he wrote in an analysis.
+
+But the website Flightradar24, which tracks aircraft around the world, said it had received data from the Russian plane suggesting sharp changes in altitude and a dramatic decrease in ground speed before the signal was lost.
+
+"It's disturbing to me. It indicates to me that something occurred possibly in the way of aerodynamic stall. I mean, an airplane just cannot fly at those lower speeds," said CNN aviation analyst Les Abend, although he cautioned that the Flightradar information was very preliminary.
+
+Analysis: Plane crashed at what should have been flight's safest point
+
+THE CRASH
+"Disintegration of the fuselage took place in the air, and the fragments are scattered around a large area" covering about 20 square kilometers (8 square miles), Viktor Sorochenko, executive director of Russia's Interstate Aviation Committee, told reporters Sunday.
+
+Learning that the plane broke into pieces while in the air helps reduce the list of possible causes of the crash, but there are still plenty of scenarios, said CNN aviation analyst Peter Goelz.
+
+Russian jet crash investigation: The key question
+Russian jet crash investigation -- the key question
+"It narrows it down a little bit, but there are a number of issues that could have affected this plane," said Goelz, a former managing director of the U.S. National Transportation Safety Board, or NTSB. "And terrorism has not been ruled out."
+
+He suggested the disaster could have resulted from "some sort of catastrophic failure, perha
+ps caused by an earlier maintenance problem. It could have been a center fuel tank that might have exploded."
+
+Former NTSB investigator Alan Diehl told CNN he believes the "final destruction" of the plane could have been from "aerodynamic forces or some other type of G-forces."
+
+Investigators are expected to get a clearer idea of what happened to the aircraft from its flight data and cockpit voice recorders -- devices commonly known as black boxes -- both of which have been recovered, according to authorities.
+
+THE PLANE
+The Airbus A321-200 operated by the airline Kogalymavia passed a routine inspection before takeoff, Egyptian Airports Co. chief Adel Al-Mahjoob said Saturday.
+
+Report: Russian plane&#39;s condition concerned co-pilot
+
+Report: Russian plane's condition concerned co-pilot 03:29
+According to the Aviation Safety Network, which tracks aircraft incidents, the same plane's tail struck a runway while landing in Cairo in 2001 and required repair. At the time, the aircraft was registered to the Lebanese carrier Middle East Airlines, registration records show.
+
+Kogalymavia's Andrei Averyanov confirmed to reporters Monday that the plane had been damaged in 2001 but said it had most recently been thoroughly checked for cracks in 2013. Not enough time had passed for major cracks to develop to a critical size since then, he said.
+
+The ex-wife of the plane's copilot, Sergei Trukhachev, said over the weekend that he had told his daughter he was concerned about the condition of the plane. "Our daughter had a telephone chat with him just before the flight," Natalya Trukhacheva told Russia's state-run NTV. "He complained before the flight that one could wish for better technical condition of the plane."
+
+Russia mourns those lost in Egypt plane crash
+
+Russia mourns those lost in Egypt plane crash 01:47
+But a Kogalymavia said such reports were irresponsible and that there was no record of the pilot or crew making any complaints.
+
+Executive Smirnov said that he had personally flown the plane in recent months and that it was "pristine."
+
+The A321-200 was built in 1997, and Kogalymavia, which is also known as Metrojet, had been operating it since 2012, Airbus said in a statement. The aircraft had clocked around 56,000 flight hours over the course of nearly 21,000 flights, the plane maker said.
+
+THE VICTIMS
+There were 217 passengers and seven crew members on board Flight 9268. Of the passengers, 209 were Russian, four were Ukrainian and one was Belarussian. The citizenships of three other passengers are unknown.
+
+The photo of 10-month-old Darina Gromova posted by the baby&#39;s mother before a family trip to Egypt.
+The photo of 10-month-old Darina Gromova posted by the baby's mother before a family trip to Egypt.
+Twenty-five children were among the victims, including 10-month old Darina Gromova, who is shown in a photo posted on social media by her mother on October 15 at the start of the family's trip to Egypt. In the photo, Darina is looking out a window at planes on the tarmac of Pulkovo Airport in St. Petersburg.
+
+Russian media reported that the disaster created a large number of orphans in Russia, as a lot of parents left their young children with relatives while they took vacations in Sharm el-Sheikh.
+
+Early Monday, a Russian plane carrying the remains of 144 of the crash victims landed in St. Petersburg, Russia's state-run news agency RIA Novosti reported.
+
+Another plane bringing more bodies is expected to depart Egypt later Monday.
+
+THE INVESTIGATION
+Egyptian President Abdel Fattah el-Sisi on Sunday urged the public not to jump to conclusions. "These are complicated matters that require advanced technologies and wide investigations that might go on for months," he said.
+
+Aviation official: Russian jet disintegrated in mid-air
+
+Aviation official: Russian jet disintegrated in mid-air 03:16
+Al-Sisi has promised Russian President Vladimir Putin to allow "the broadest possible participation of Russian experts in the investigation," according to the Kremlin, and Russian officials have joined their Egyptian counterparts at the crash scene. Putin has also ordered Russian Prime Minister Dmitry Medvedev to open an investigation into the crash, the Kremlin said.
+
+Aviation investigators from France and Germany, the countries where the plane was manufactured, are also taking part in the inquiry.
+
+Egyptian officials said Saturday that the two "black boxes" were being transported to Cairo for analysis.
+
+The flight data recorder stores a vast array of information about the flight, such as air speed, altitude, engine performance and wing positions. The cockpit voice recorder captures sounds on the flight deck that can include conversations between the pilots and warning noises from the aircraft.
+
+Russia's state-run official TASS news agency reported Monday that the "black boxes" had been inspected by top Russian officials and were said to be in a good condition.
+
+THE REGION
+In recent years, the Sinai Peninsula has been a battleground between ISIS-affiliated militants and Egyptian security forces. The vicious conflict has killed hundreds of people.
+
+The militants appeared to claim responsibility for bringing down the Russian passenger jet in a statement posted online Saturday, but officials in Egypt and Russia disputed it.
+
+Russian jet crash investigation: The key question
+Russian jet crash investigation -- the key question
+Mahjoob, the airport official, said there was no evidence of a terrorist attack. And Russian Transport Minister Maxim Sokolov said the claim that terrorists brought down the plane with an anti-aircraft missile "cannot be considered reliable," according to RIA Novosti.
+
+The Egyptian military said militants in Sinai have shoulder-fired anti-aircraft weapons that shoot only as high as 14,000 feet, far short of the more than 30,000 feet at which Flight 9268 was flying when it dropped off radar.
+
+To reach such an altitude would require missiles using special launch pads and radar systems operated by engineers, the military said.
+
+Kremlin spokesman Dimitry Peskov refused to discount terrorism, telling CNN's Matthew Chance on Monday that "only (the) investigation can rule out something."
+
+Kogalymavia executives also said Monday that it was too early in the investigation to speculate or draw any conclusions. But Smirnov referred to purported footage of the crash posted by militants, saying: "Those images you have seen on the Internet, I think they are fake."
+ps caused by an earlier maintenance problem. It could have been a center fuel tank that might have exploded."
+
+Former NTSB investigator Alan Diehl told CNN he believes the "final destruction" of the plane could have been from "aerodynamic forces or some other type of G-forces."
+
+Investigators are expected to get a clearer idea of what happened to the aircraft from its flight data and cockpit voice recorders -- devices commonly known as black boxes -- both of which have been recovered, according to authorities.
+
+THE PLANE
+The Airbus A321-200 operated by the airline Kogalymavia passed a routine inspection before takeoff, Egyptian Airports Co. chief Adel Al-Mahjoob said Saturday.
+
+Report: Russian plane&#39;s condition concerned co-pilot
+
+Report: Russian plane's condition concerned co-pilot 03:29
+According to the Aviation Safety Network, which tracks aircraft incidents, the same plane's tail struck a runway while landing in Cairo in 2001 and required repair. At the time, the aircraft was registered to the Lebanese carrier Middle East Airlines, registration records show.
+
+Kogalymavia's Andrei Averyanov confirmed to reporters Monday that the plane had been damaged in 2001 but said it had most recently been thoroughly checked for cracks in 2013. Not enough time had passed for major cracks to develop to a critical size since then, he said.
+
+The ex-wife of the plane's copilot, Sergei Trukhachev, said over the weekend that he had told his daughter he was concerned about the condition of the plane. "Our daughter had a telephone chat with him just before the flight," Natalya Trukhacheva told Russia's state-run NTV. "He complained before the flight that one could wish for better technical condition of the plane."
+
+Russia mourns those lost in Egypt plane crash
+
+Russia mourns those lost in Egypt plane crash 01:47
+But a Kogalymavia said such reports were irresponsible and that there was no record of the pilot or crew making any complaints.
+
+Executive Smirnov said that he had personally flown the plane in recent months and that it was "pristine."
+
+The A321-200 was built in 1997, and Kogalymavia, which is also known as Metrojet, had been operating it since 2012, Airbus said in a statement. The aircraft had clocked around 56,000 flight hours over the course of nearly 21,000 flights, the plane maker said.
+
+THE VICTIMS
+There were 217 passengers and seven crew members on board Flight 9268. Of the passengers, 209 were Russian, four were Ukrainian and one was Belarussian. The citizenships of three other passengers are unknown.
+
+The photo of 10-month-old Darina Gromova posted by the baby&#39;s mother before a family trip to Egypt.
+The photo of 10-month-old Darina Gromova posted by the baby's mother before a family trip to Egypt.
+Twenty-five children were among the victims, including 10-month old Darina Gromova, who is shown in a photo posted on social media by her mother on October 15 at the start of the family's trip to Egypt. In the photo, Darina is looking out a window at planes on the tarmac of Pulkovo Airport in St. Petersburg.
+
+Russian media reported that the disaster created a large number of orphans in Russia, as a lot of parents left their young children with relatives while they took vacations in Sharm el-Sheikh.
+
+Early Monday, a Russian plane carrying the remains of 144 of the crash victims landed in St. Petersburg, Russia's state-run news agency RIA Novosti reported.
+
+Another plane bringing more bodies is expected to depart Egypt later Monday.
+
+THE INVESTIGATION
+Egyptian President Abdel Fattah el-Sisi on Sunday urged the public not to jump to conclusions. "These are complicated matters that require advanced technologies and wide investigations that might go on for months," he said.
+
+Aviation official: Russian jet disintegrated in mid-air
+
+Aviation official: Russian jet disintegrated in mid-air 03:16
+Al-Sisi has promised Russian President Vladimir Putin to allow "the broadest possible participation of Russian experts in the investigation," according to the Kremlin, and Russian officials have joined their Egyptian counterparts at the crash scene. Putin has also ordered Russian Prime Minister Dmitry Medvedev to open an investigation into the crash, the Kremlin said.
+
+Aviation investigators from France and Germany, the countries where the plane was manufactured, are also taking part in the inquiry.
+
+Egyptian officials said Saturday that the two "black boxes" were being transported to Cairo for analysis.
+
+The flight data recorder stores a vast array of information about the flight, such as air speed, altitude, engine performance and wing positions. The cockpit voice recorder captures sounds on the flight deck that can include conversations between the pilots and warning noises from the aircraft.
+
+Russia's state-run official TASS news agency reported Monday that the "black boxes" had been inspected by top Russian officials and were said to be in a good condition.
+
+THE REGION
+In recent years, the Sinai Peninsula has been a battleground between ISIS-affiliated militants and Egyptian security forces. The vicious conflict has killed hundreds of people.
+
+The militants appeared to claim responsibility for bringing down the Russian passenger jet in a statement posted online Saturday, but officials in Egypt and Russia disputed it.
+
+Russian jet crash investigation: The key question
+Russian jet crash investigation -- the key question
+Mahjoob, the airport official, said there was no evidence of a terrorist attack. And Russian Transport Minister Maxim Sokolov said the claim that terrorists brought down the plane with an anti-aircraft missile "cannot be considered reliable," according to RIA Novosti.
+
+The Egyptian military said militants in Sinai have shoulder-fired anti-aircraft weapons that shoot only as high as 14,000 feet, far short of the more than 30,000 feet at which Flight 9268 was flying when it dropped off radar.
+
+To reach such an altitude would require missiles using special launch pads and radar systems operated by engineers, the military said.
+
+Kremlin spokesman Dimitry Peskov refused to discount terrorism, telling CNN's Matthew Chance on Monday that "only (the) investigation can rule out something."
+
+Kogalymavia executives also said Monday that it was too early in the investigation to speculate or draw any conclusions. But Smirnov referred to purported footage of the crash posted by militants, saying: "Those images you have seen on the Internet, I think they are fake."
+Uploaded: shit ps caused by an earlier maintenance problem. It could have been a center fuel tank that might have exploded."
+
+Former NTSB investigator Alan Diehl told CNN he believes the "final destruction" of the plane could have been from "aerodynamic forces or some other type of G-forces."
+
+Investigators are expected to get a clearer idea of what happened to the aircraft from its flight data and cockpit voice recorders -- devices commonly known as black boxes -- both of which have been recovered, according to authorities.
+
+THE PLANE
+The Airbus A321-200 operated by the airline Kogalymavia passed a routine inspection before takeoff, Egyptian Airports Co. chief Adel Al-Mahjoob said Saturday.
+
+Report: Russian plane&#39;s condition concerned co-pilot
+
+Report: Russian plane's condition concerned co-pilot 03:29
+According to the Aviation Safety Network, which tracks aircraft incidents, the same plane's tail struck a runway while landing in Cairo in 2001 and required repair. At the time, the aircraft was registered to the Lebanese carrier Middle East Airlines, registration records show.
+
+Kogalymavia's Andrei Averyanov confirmed to reporters Monday that the plane had been damaged in 2001 but said it had most recently been thoroughly checked for cracks in 2013. Not enough time had passed for major cracks to develop to a critical size since then, he said.
+
+The ex-wife of the plane's copilot, Sergei Trukhachev, said over the weekend that he had told his daughter he was concerned about the condition of the plane. "Our daughter had a telephone chat with him just before the flight," Natalya Trukhacheva told Russia's state-run NTV. "He complained before the flight that one could wish for better technical condition of the plane."
+
+Russia mourns those lost in Egypt plane crash
+
+Russia mourns those lost in Egypt plane crash 01:47
+But a Kogalymavia said such reports were irresponsible and that there was no record of the pilot or crew making any complaints.
+
+Executive Smirnov said that he had personally flown the plane in recent months and that it was "pristine."
+
+The A321-200 was built in 1997, and Kogalymavia, which is also known as Metrojet, had been operating it since 2012, Airbus said in a statement. The aircraft had clocked around 56,000 flight hours over the course of nearly 21,000 flights, the plane maker said.
+
+THE VICTIMS
+There were 217 passengers and seven crew members on board Flight 9268. Of the passengers, 209 were Russian, four were Ukrainian and one was Belarussian. The citizenships of three other passengers are unknown.
+
+The photo of 10-month-old Darina Gromova posted by the baby&#39;s mother before a family trip to Egypt.
+The photo of 10-month-old Darina Gromova posted by the baby's mother before a family trip to Egypt.
+Twenty-five children were among the victims, including 10-month old Darina Gromova, who is shown in a photo posted on social media by her mother on October 15 at the start of the family's trip to Egypt. In the photo, Darina is looking out a window at planes on the tarmac of Pulkovo Airport in St. Petersburg.
+
+Russian media reported that the disaster created a large number of orphans in Russia, as a lot of parents left their young children with relatives while they took vacations in Sharm el-Sheikh.
+
+Early Monday, a Russian plane carrying the remains of 144 of the crash victims landed in St. Petersburg, Russia's state-run news agency RIA Novosti reported.
+
+Another plane bringing more bodies is expected to depart Egypt later Monday.
+
+THE INVESTIGATION
+Egyptian President Abdel Fattah el-Sisi on Sunday urged the public not to jump to conclusions. "These are complicated matters that require advanced technologies and wide investigations that might go on for months," he said.
+
+Aviation official: Russian jet disintegrated in mid-air
+
+Aviation official: Russian jet disintegrated in mid-air 03:16
+Al-Sisi has promised Russian President Vladimir Putin to allow "the broadest possible participation of Russian experts in the investigation," according to the Kremlin, and Russian officials have joined their Egyptian counterparts at the crash scene. Putin has also ordered Russian Prime Minister Dmitry Medvedev to open an investigation into the crash, the Kremlin said.
+
+Aviation investigators from France and Germany, the countries where the plane was manufactured, are also taking part in the inquiry.
+
+Egyptian officials said Saturday that the two "black boxes" were being transported to Cairo for analysis.
+
+The flight data recorder stores a vast array of information about the flight, such as air speed, altitude, engine performance and wing positions. The cockpit voice recorder captures sounds on the flight deck that can include conversations between the pilots and warning noises from the aircraft.
+
+Russia's state-run official TASS news agency reported Monday that the "black boxes" had been inspected by top Russian officials and were said to be in a good condition.
+
+THE REGION
+In recent years, the Sinai Peninsula has been a battleground between ISIS-affiliated militants and Egyptian security forces. The vicious conflict has killed hundreds of people.
+
+The militants appeared to claim responsibility for bringing down the Russian passenger jet in a statement posted online Saturday, but officials in Egypt and Russia disputed it.
+
+Russian jet crash investigation: The key question
+Russian jet crash investigation -- the key question
+Mahjoob, the airport official, said there was no evidence of a terrorist attack. And Russian Transport Minister Maxim Sokolov said the claim that terrorists brought down the plane with an anti-aircraft missile "cannot be considered reliable," according to RIA Novosti.
+
+The Egyptian military said militants in Sinai have shoulder-fired anti-aircraft weapons that shoot only as high as 14,000 feet, far short of the more than 30,000 feet at which Flight 9268 was flying when it dropped off radar.
+
+To reach such an altitude would require missiles using special launch pads and radar systems operated by engineers, the military said.
+
+Kremlin spokesman Dimitry Peskov refused to discount terrorism, telling CNN's Matthew Chance on Monday that "only (the) investigation can rule out something."
+
+Kogalymavia executives also said Monday that it was too early in the investigation to speculate or draw any conclusions. But Smirnov referred to purported footage of the crash posted by militants, saying: "Those images you have seen on the Internet, I think they are fake."
+Uploaded: shit Egypt's Ministry of Civil Aviation has released a photo of a flight data recorder from downed Kogalymavia Flight 9268 as part of the investigation into Saturday's crash over the Sinai Peninsula.
+
+Russian investigators have determined the data recorders, or "black boxes," are in good condition, the state-run TASS news agency reported earlier.
+
+Photo released by Egypt&#39;s Ministry of Civil Aviation.
+Photo released by Egypt's Ministry of Civil Aviation.
+[Previous, story posted 7:09 a.m. ET]
+
+The only reasonable explanation for the crash of a Russian passenger jet in Egypt is "an external influence," an executive from the airline that operated the flight said Monday, stressing that planes don't just break apart in midair.
+
+Kogalymavia Flight 9268 broke into pieces before it hit the ground in a remote area of Egypt's restive Sinai Peninsula on Saturday, killing all 224 people on board.
+
+The executive was not specific about what he meant by an external influence. Experts say it is too early to know for certain what caused the plane to break up at the start of what could be a lengthy investigation.
+
+Russian plane crashes in Egypt
+21 photos: Russian plane crashes in Egypt
+"We exclude technical problems and reject human error," Alexander Smirnov, a Kogalymavia airline official, said at a Moscow news conference as he discussed possible causes of the crash.
+
+He added that the crew did not issue any warnings or communications during the final moments, indicating that the flight crew must have been disabled and not able to radio out.
+
+However, Smirnov said that while the plane's flight and voice data recorders had been recovered, they had not been read or decoded.
+
+First victims&#39; bodies arrive in Russia
+
+First victims' bodies arrive in Russia 02:14
+Officials have played down an apparent claim by Islamic militants in Sinai that they brought down the Airbus A321-200, saying technical failure is the most likely reason for the crash.
+
+Here's where things stand:
+
+THE FLIGHT
+Flight 9268 was on its way from the Egyptian resort of Sharm el-Sheikh to St. Petersburg early Saturday when it dropped off radar about 23 minutes into the flight, Egyptian officials say.
+
+
+Air traffic controllers apparently didn't receive any distress calls from the pilots. "There was nothing abnormal before the plane crash," Egyptian Civil Aviation Minister Hossam Kamel said Saturday. "It suddenly disappeared from the radar."
+
+CNN aviation correspondent Richard Quest said it was "unusual" for an aircraft to go down roughly 20 minutes into a flight.
+
+Richard Quest: Russian plane crashed at what should have been flight&#39;s safest point
+Russian plane crash: Quest finds it mysterious
+"At this point, a plane is on autopilot. It's reaching its initial cruising altitude, and there is little that can or should go wrong," he wrote in an analysis.
+
+But the website Flightradar24, which tracks aircraft around the world, said it had received data from the Russian plane suggesting sharp changes in altitude and a dramatic decrease in ground speed before the signal was lost.
+
+"It's disturbing to me. It indicates to me that something occurred possibly in the way of aerodynamic stall. I mean, an airplane just cannot fly at those lower speeds," said CNN aviation analyst Les Abend, although he cautioned that the Flightradar information was very preliminary.
+
+Analysis: Plane crashed at what should have been flight's safest point
+
+THE CRASH
+"Disintegration of the fuselage took place in the air, and the fragments are scattered around a large area" covering about 20 square kilometers (8 square miles), Viktor Sorochenko, executive director of Russia's Interstate Aviation Committee, told reporters Sunday.
+
+Learning that the plane broke into pieces while in the air helps reduce the list of possible causes of the crash, but there are still plenty of scenarios, said CNN aviation analyst Peter Goelz.
+
+Russian jet crash investigation: The key question
+Russian jet crash investigation -- the key question
+"It narrows it down a little bit, but there are a number of issues that could have affected this plane," said Goelz, a former managing director of the U.S. National Transportation Safety Board, or NTSB. "And terrorism has not been ruled out."
+
+He suggested the disaster could have resulted from "some sort of catastrophic failure, perha
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+request recd
+Egypt's Mi
+request recd
+he final m
+Uploaded to: textdoc
+Uploaded to: textdoc
