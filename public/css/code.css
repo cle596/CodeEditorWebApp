@@ -15,7 +15,6 @@ body {
   background-color: #333; }
 
 .menu-opt {
-  display: none;
   padding-top: 0px;
   padding-bottom: 2px; }
 
@@ -25,7 +24,7 @@ body {
 .menu-bar {
   font-family: "Ubuntu", sans-serif;
   background-color: #222;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   padding-top: 0;
   padding-left: 0px;
@@ -34,10 +33,11 @@ body {
   margin: 0; }
 
 .menu-list {
+  display: none;
   position: absolute;
   font-family: "Ubuntu", sans-serif;
   background-color: #222;
-  font-size: 15px;
+  font-size: 16px;
   width: 40%;
   cursor: pointer;
   margin-top: 0;
@@ -48,7 +48,7 @@ body {
 .menu-btn {
   highlight: none;
   font-family: "Ubuntu", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   padding-left: 0;
   padding-bottom: 2px;
@@ -70,8 +70,8 @@ body {
   background-color: #191919;
   color: #DDD;
   font-family: "Ubuntu", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.0425em;
+  font-size: 16px;
+  letter-spacing: 0.05em;
   resize: none;
   padding-top: 5px; }
 
@@ -96,8 +96,8 @@ body {
   background-color: #191919;
   color: #DDD;
   font-family: "Ubuntu", sans-serif;
-  font-size: 15px;
-  letter-spacing: 0.0425em; }
+  font-size: 16px;
+  letter-spacing: 0.05em; }
 
 .dir-inner-col {
   color: #DDD;
@@ -117,7 +117,7 @@ body {
 
 #notification {
   font-family: "Ubuntu", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: #DDD;
   margin: 0;
   padding: 0;
