@@ -24,10 +24,17 @@ app.use(session({
   store: new RedisStore({
     host: 'localhost'
   }),
-  secret: '1443170043732756752',
+  secret: 'sillysecretkey',
   resave: false,
   saveUninitialized: false
 }));
+
+app.use(function (req, res, next) {
+  if (!req.session) {
+    return next(new Error('oh no')) // handle error
+  }
+  next() // otherwise continue
+})
 
 app.get('/', function(req, res) {
   console.log(req.session);
