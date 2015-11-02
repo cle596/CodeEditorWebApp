@@ -57,8 +57,14 @@ body {
   margin: 0;
   padding-bottom: 0px; }
 
-#demo {
-  font-family: "Ubuntu", sans-serif; }
+#notification {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  float: none;
+  visibility: hidden; }
 
 .edit-area {
   width: 100%;

@@ -19,7 +19,6 @@ app.post('/push', function(req, res) {
   var push_data = "";
   req.on("data", function(data) {
     push_data += data;
-    console.log(data.toString().slice(0,10));
   });
   req.on("end", function() {
     var params = {
