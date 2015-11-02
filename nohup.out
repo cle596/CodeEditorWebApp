@@ -567,3 +567,103 @@ Error: listen EADDRINUSE
     at startup (node.js:119:16)
     at node.js:902:3
 [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+hello
+Successfully uploaded: shit hello
+hello
+Successfully uploaded: shit hello
+hello
+Successfully uploaded: shit hello
+hello
+Successfully uploaded: shit hello
+hello
+Successfully uploaded: shit hello
+hello
+Successfully uploaded: shit hello
+hello
+Successfully uploaded: shit hello
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+hello
+Successfully uploaded: shit hello
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+hello
+Successfully uploaded: shit hello
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+awegweagwegawgawegawegwaegweg
+Successfully uploaded: shit awegweagwegawgawegawegwaegweg
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+damn apple
+Successfully uploaded: shit damn apple
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+w
+Uploaded: shit w
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:14
+    store: new RedisStore(options),
+                          ^
+ReferenceError: options is not defined
+    at Object.<anonymous> (/home/ubuntu/code-editor/app.js:14:27)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:14
+    store: new RedisStore(options),
+                          ^
+ReferenceError: options is not defined
+    at Object.<anonymous> (/home/ubuntu/code-editor/app.js:14:27)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+Mon, 02 Nov 2015 01:19:04 GMT express-session deprecated undefined resave option; provide resave option at app.js:13:9
+Mon, 02 Nov 2015 01:19:04 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:13:9
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+Mon, 02 Nov 2015 01:20:22 GMT express-session deprecated undefined resave option; provide resave option at app.js:13:9
+Mon, 02 Nov 2015 01:20:22 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:13:9
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+Mon, 02 Nov 2015 01:20:41 GMT express-session deprecated undefined resave option; provide resave option at app.js:13:9
+Mon, 02 Nov 2015 01:20:41 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:13:9

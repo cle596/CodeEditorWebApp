@@ -9,5 +9,5 @@ xhttp.onreadystatechange = function() {
 document.getElementById("push").onclick = function(e){
   xhttp.open("POST","push",true);
   xhttp.setRequestHeader("Content-type","text/plain");
-  xhttp.send("hello");
+  xhttp.send(document.getElementById("edit-space").value);
 }
