@@ -2,7 +2,9 @@ var AWS = require('aws-sdk');
 var s3 = new AWS.S3();
 var fs = require('fs');
 
-var redis = require("redis");
+var crypto = require('crypto');
+
+var redis = require("redis"),
     client = redis.createClient();
 
 var session = require('express-session');
@@ -27,7 +29,9 @@ app.use(session({
   saveUninitialized: false
 }));
 
-app.get('/', function(req, res) {});
+app.get('/', function(req, res) {
+  console.log(req.session);
+});
 app.post('/push', function(req, res) {
   req.on("data", function(data) {
     console.log(data.toString());
@@ -44,6 +48,7 @@ app.post('/push', function(req, res) {
       }
     });
   });
-  res.send("shitreply");
+  //res.send(req.session.id);
+  res.send("synced");
 });
 app.listen(8000, '0.0.0.0');

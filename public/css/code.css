@@ -57,6 +57,10 @@ body {
   margin: 0;
   padding-bottom: 0px; }
 
+#demo {
+  font-family: "Ubuntu", sans-serif;
+}
+
 .edit-area {
   width: 100%;
   height: 50%;

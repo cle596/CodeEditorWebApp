@@ -667,3 +667,138 @@ Mon, 02 Nov 2015 01:20:22 GMT express-session deprecated undefined saveUninitial
 [32m[nodemon] starting `node app.js`[39m
 Mon, 02 Nov 2015 01:20:41 GMT express-session deprecated undefined resave option; provide resave option at app.js:13:9
 Mon, 02 Nov 2015 01:20:41 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at app.js:13:9
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:24
+    host: 'localhost',
+    ^^^^
+SyntaxError: Unexpected identifier
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:24
+    host: 'localhost',
+    ^^^^
+SyntaxError: Unexpected identifier
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:24
+    host: 127.0.0.1,
+               ^^
+SyntaxError: Unexpected number
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:18
+    var sha = crypto.createHash('sha256');
+              ^
+ReferenceError: crypto is not defined
+    at app.use.session.genid (/home/ubuntu/code-editor/app.js:18:15)
+    at Object.<anonymous> (/home/ubuntu/code-editor/app.js:21:4)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:25
+    host: localhost
+          ^
+ReferenceError: localhost is not defined
+    at Object.<anonymous> (/home/ubuntu/code-editor/app.js:25:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+awgewegweg
+Uploaded: shit awgewegweg
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+awegwaegewg
+Uploaded: shit awegwaegewg
+wageweg
+Uploaded: shit wageweg
