@@ -7,36 +7,14 @@ var session = require('express-session');
 var RedisStore = require('connect-redis')(session);
 var cookieParser = require('cookie-parser');
 var app = express();
-//app.use(cookieParser());
-app.use(session({
-  name: "mycookie",
-  genid: function(req) {
-    var sha = crypto.createHash('sha256');
-    sha.update(Math.random().toString());
-    return sha.digest('hex');
-  },
-  cookie: {
-    secure: false,
-    httpOnly: false,
-    maxAge: 60000
-  },
-  /*
-  store: new MemoryStore,
-  store: new RedisStore({
-    host: 'localhost'
-  }),
-  */
-  secret: 'ejawofjewaoigjaweoigjwega',
-  resave: true,
-  rolling: true,
-  saveUninitialized: true,
-  unset: 'keep'
-}));
-app.use(express.static('public'));
-app.use(function(err, req, res, next) {
-  console.log(req.session.id);
+var session_option = require("./session-option");
+console.log(session_option);
+app.use(session(session_option)); //do session management first
+app.use(function (req, res, next) {
+  //console.log(req.session.id); will print per request to all files
   next();
 });
+app.use(express.static('public'));
 app.post('/push', function(req, res) {
   req.on("data", function(data) {
     console.log(data.toString());

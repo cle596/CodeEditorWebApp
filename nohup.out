@@ -1471,3 +1471,207 @@ Error: Cannot find module 'cookie-parser'
 [32m[nodemon] starting `node app.js`[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node app.js`[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:10
+var session-option = require("session-option");
+           ^
+SyntaxError: Unexpected token -
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:10
+var session-option = require("session-option");
+           ^
+SyntaxError: Unexpected token -
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:10
+var session-option = require("session-option");
+           ^
+SyntaxError: Unexpected token -
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+
+/home/ubuntu/code-editor/app.js:10
+var session-option = require("session-option");
+           ^
+SyntaxError: Unexpected token -
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:902:3
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] clean exit - waiting for changes before restart[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+{ name: 'mycookie',
+  genid: [Function],
+  cookie: { secure: false, httpOnly: false, maxAge: 60000 },
+  store: 
+   { prefix: 'sess:',
+     serializer: {},
+     client: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        address: 'localhost:6379',
+        connection_option: [Object],
+        connection_id: 1,
+        connected: false,
+        ready: false,
+        connections: 0,
+        should_buffer: false,
+        max_attempts: 0,
+        command_queue: [Object],
+        offline_queue: [Object],
+        connect_timeout: 3600000,
+        enable_offline_queue: true,
+        retry_max_delay: null,
+        retry_timer: null,
+        retry_totaltime: 0,
+        retry_delay: 200,
+        retry_backoff: 1.7,
+        attempts: 1,
+        pub_sub_mode: false,
+        subscription_set: {},
+        monitoring: false,
+        closing: false,
+        server_info: {},
+        auth_pass: undefined,
+        parser_module: null,
+        selected_db: null,
+        old_state: null,
+        pipeline: 0,
+        options: [Object],
+        stream: [Object] },
+     ttl: undefined,
+     disableTTL: undefined },
+  secret: 'ejawofjewaoigjaweoigjwega',
+  resave: true,
+  rolling: true,
+  saveUninitialized: true,
+  unset: 'keep' }
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+{ name: 'mycookie',
+  genid: [Function],
+  cookie: { secure: false, httpOnly: false, maxAge: 60000 },
+  store: 
+   { prefix: 'sess:',
+     serializer: {},
+     client: 
+      { domain: null,
+        _events: [Object],
+        _maxListeners: 10,
+        address: 'localhost:6379',
+        connection_option: [Object],
+        connection_id: 1,
+        connected: false,
+        ready: false,
+        connections: 0,
+        should_buffer: false,
+        max_attempts: 0,
+        command_queue: [Object],
+        offline_queue: [Object],
+        connect_timeout: 3600000,
+        enable_offline_queue: true,
+        retry_max_delay: null,
+        retry_timer: null,
+        retry_totaltime: 0,
+        retry_delay: 200,
+        retry_backoff: 1.7,
+        attempts: 1,
+        pub_sub_mode: false,
+        subscription_set: {},
+        monitoring: false,
+        closing: false,
+        server_info: {},
+        auth_pass: undefined,
+        parser_module: null,
+        selected_db: null,
+        old_state: null,
+        pipeline: 0,
+        options: [Object],
+        stream: [Object] },
+     ttl: undefined,
+     disableTTL: undefined },
+  secret: 'ejawofjewaoigjaweoigjwega',
+  resave: true,
+  rolling: true,
+  saveUninitialized: true,
+  unset: 'keep' }
