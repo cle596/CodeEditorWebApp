@@ -6,6 +6,6 @@ var help_menu_opt = document.getElementsByClassName("help-menu-opt");
 
 setElementAttributes(help, {
   onclick: function(e) {
-    help_menu.style.left = "auto";
+    help_menu.style.left = "10px";
   }
 });

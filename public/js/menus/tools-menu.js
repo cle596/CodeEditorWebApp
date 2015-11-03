@@ -6,6 +6,6 @@ var tools_menu_opt = document.getElementsByClassName("tools-menu-opt");
 
 setElementAttributes(tools, {
   onclick: function(e) {
-    tools_menu.style.left = "auto";
+    tools_menu.style.left = "10px";
   }
 });
