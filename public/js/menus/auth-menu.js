@@ -6,6 +6,6 @@ var auth_menu_opt = document.getElementsByClassName("auth-menu-opt");
 
 setElementAttributes(auth, {
   onclick: function(e) {
-    auth_menu.style.display = "block";
+    auth_menu.style.left = "auto";
   }
 });

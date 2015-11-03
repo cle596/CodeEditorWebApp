@@ -4,18 +4,18 @@ var html = document.getElementsByTagName("html")[0];
 
 html.onclick = function(e) {
   if (e.target != file) {
-    file_menu.style.display = "none";
+    file_menu.style.left = "-500px";
   }
   if (e.target != edit) {
-    edit_menu.style.display = "none";
+    edit_menu.style.left = "-500px";
   }
   if (e.target != tools) {
-    tools_menu.style.display = "none";
+    tools_menu.style.left = "-500px";
   }
   if (e.target != auth) {
-    auth_menu.style.display = "none";
+    auth_menu.style.left = "-500px";
   }
   if (e.target != help) {
-    help_menu.style.display = "none";
+    help_menu.style.left = "-500px";
   }
 }

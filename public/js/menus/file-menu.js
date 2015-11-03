@@ -8,7 +8,6 @@ var file_menu_opt = document.getElementsByClassName("file-menu-opt");
 
 setElementAttributes(file, {
   onclick: function(e) {
-    file_menu.style.display = "block";
-
+    file_menu.style.left = "auto";
   }
 });

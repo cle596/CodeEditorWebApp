@@ -6,6 +6,6 @@ var edit_menu_opt = document.getElementsByClassName("edit-menu-opt");
 
 setElementAttributes(edit, {
   onclick: function(e) {
-    edit_menu.style.display = "block";
+    edit_menu.style.left = "auto";
   }
 });
