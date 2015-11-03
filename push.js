@@ -1,7 +1,11 @@
+var express = require('express');
+var AWS = require('aws-sdk');
+var s3 = new AWS.S3();
+
 module.exports = (function() {
   'use strict';
-  var router = require('express').Router();
-  router.get('/', function(req, res) {
+  var router = express.Router();
+  router.post('/push', function(req, res) {
     var push_data = "";
     req.on("data", function(data) {
       push_data += data;
