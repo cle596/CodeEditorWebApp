@@ -1,0 +1,68 @@
+@import menu
+@import edit
+
+$font-stack: 'Ubuntu', sans-serif
+$font-size: 15px
+$font-width: 0.05em
+$bg-color: #222
+$bg-color-highlight: #333
+$text-color: #DDD
+$col-bg-color: #191919
+
+html
+  width: 100%
+
+body
+  width: 100%
+  background-color: $bg-color
+  color: $text-color
+
+.row
+  width: 100%
+
+.dir-col
+  float: left
+  width: 20%
+  height: 80%
+  padding: 0
+  margin: 0
+  margin-right: 10px
+  display: inline
+  border-color: #000
+  border-width: 1px
+  border-style: solid
+  outline: none
+  box-shadow: none !important
+  -webkit-box-shadow: none !important
+  -moz-box-shadow: none !important
+  background-color: $col-bg-color
+  color: $text-color
+  font-family: $font-stack
+  font-size: $font-size
+  letter-spacing: $font-width
+
+.dir-inner-col
+  color: $text-color
+  padding: 3px
+
+.edit-col
+  float: left
+  width: 70%
+  height: 80%
+  padding: 0
+  margin: 0
+  display: inline
+
+#menu-div
+  margin: 0
+  padding-bottom: 0px
+
+#notification
+  font-family: $font-stack
+  font-size: $font-size
+  color: $text-color
+  margin: 0
+  padding: 0
+  float: none
+  visibility: hidden
+  padding-top: 20px

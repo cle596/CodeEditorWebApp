@@ -10,12 +10,5 @@ setElementAttributes(file, {
   onclick: function(e) {
     file_menu.style.display = "block";
 
-  },
-  onmouseover: function(e) {
-    if (file_menu_opt[0].style.display == "") {
-      for (var x = 0; x < file_menu_opt.length; ++x) {
-        file_menu_opt[x].style.display = "block";
-      }
-    }
   }
 });
