@@ -69,6 +69,12 @@ button::-moz-focus-inner {
   resize: none;
   padding-top: 5px; }
 
+.login {
+  position: absolute;
+  background: black;
+  color: white;
+  top: -9999px; }
+
 body {
   background-color: #222;
   color: #DDD; }
