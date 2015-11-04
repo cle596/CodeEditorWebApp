@@ -88,18 +88,26 @@ button::-moz-focus-inner {
   color: #DDD;
   display: block; }
 
-#tab-1 {
+.tab-panel {
+  position: absolute;
+  right: 220px;
+  top: 45px; }
+
+.tab {
   font-family: "Ubuntu", sans-serif;
   font-size: 15px;
   color: #DDD;
   background-color: #191919;
   display: inline;
-  float: none;
   border: solid;
   border-width: 1px;
   border-color: black;
   padding-left: 5px;
-  padding-right: 5px; }
+  padding-right: 5px;
+  cursor: pointer; }
+
+.tab:hover {
+  background-color: #222; }
 
 body {
   background-color: #222;
