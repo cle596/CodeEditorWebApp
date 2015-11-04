@@ -7,7 +7,7 @@ module.exports = function(grunt){
 		    sourceMap : true,
 		    sourceMapName : 'public/js/sourceMap.map'
 		},
-		src : ['public/js/*.js','public/js/menus/*.js'],
+		src : ['public/js/other/*.js','public/js/menus/*.js'],
 		dest : 'public/js/code-editor.min.js'
 	    }
 	}
