@@ -20,12 +20,12 @@ module.exports = (function() {
         if (err) {
           console.log(err);
         } else {
-          console.log("Uploaded to: " + params.Key);
-          push_data = "";
+            console.log("Uploaded to: " + params.Key);
+            push_data = "";
+	    res.send("Saved to cloud.");
         }
       });
     });
-    res.send("Saved to cloud.");
   });
   return router;
 })();
