@@ -7,8 +7,8 @@ xhttp.onreadystatechange = function() {
 	document.getElementById("notification").innerHTML = xhttp.responseText;
 	document.getElementById("notification").style.visibility = "visible";
 	setTimeout(function(){
-	    document.getElementById("notification").innerHTML = " ";
-	},4000);
+	    document.getElementById("notification").innerHTML = '\xa0';
+	},2500);
     }
 }
 
