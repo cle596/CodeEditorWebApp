@@ -12,8 +12,8 @@ module.exports = (function() {
     });
     req.on("end", function() {
       var params = {
-        Bucket: 'code-editor/brosf',
-        Key: 'textdoc',
+        Bucket: 'code-editor/changhanlee@gmail.com',
+        Key: 'test',
         Body: push_data.toString()
       };
       s3.putObject(params, function(err, data) {
