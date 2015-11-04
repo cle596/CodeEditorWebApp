@@ -3013,3 +3013,42 @@ SyntaxError: Unexpected token c
     at /home/ubuntu/code-editor/login.js:13:6
     at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
     at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
+Uploaded to: test
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+
+TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at /home/ubuntu/code-editor/node_modules/prominence/lib/prominence.js:14:25
+    at Array.forEach (native)
+    at new Prominence (/home/ubuntu/code-editor/node_modules/prominence/lib/prominence.js:13:35)
+    at module.exports (/home/ubuntu/code-editor/node_modules/prominence/lib/prominence.js:47:12)
+    at /home/ubuntu/code-editor/login.js:9:16
+    at Object.<anonymous> (/home/ubuntu/code-editor/login.js:26:3)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+
+TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on strict mode functions or the arguments objects for calls to them
+    at /home/ubuntu/code-editor/node_modules/prominence/lib/prominence.js:14:25
+    at Array.forEach (native)
+    at new Prominence (/home/ubuntu/code-editor/node_modules/prominence/lib/prominence.js:13:35)
+    at module.exports (/home/ubuntu/code-editor/node_modules/prominence/lib/prominence.js:47:12)
+    at /home/ubuntu/code-editor/login.js:9:16
+    at Object.<anonymous> (/home/ubuntu/code-editor/login.js:26:3)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
