@@ -24,5 +24,8 @@ document.getElementById("user-login-form").addEventListener("submit",function(e)
     user_login.style.top = "-9999px";
     xhttp.open("POST","login",true);
     xhttp.setRequestHeader("Content-type","text/plain");
+    if (data == ""){
+	data += "a";
+    }
     xhttp.send(data);
 });
