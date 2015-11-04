@@ -5,6 +5,7 @@ module.exports = (function() {
   var router = express.Router();
   router.post('/login', function(req, res) {
     req.on("data", function(data) {
+	console.log("hi");
       console.log(data);
     });
     res.send("Logged in as ");

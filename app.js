@@ -12,6 +12,6 @@ var app = express();
 var session_option = require("./session-option");
 app.use(session(session_option)); //order matters
 app.use(express.static('public'));
-//app.use('/save',save);
+app.use('/',save);
 app.use('/',login);
 app.listen(8000, '0.0.0.0');
