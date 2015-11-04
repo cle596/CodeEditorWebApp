@@ -88,6 +88,19 @@ button::-moz-focus-inner {
   color: #DDD;
   display: block; }
 
+#tab-1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  color: #DDD;
+  background-color: #191919;
+  display: inline;
+  float: none;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-left: 5px;
+  padding-right: 5px; }
+
 body {
   background-color: #222;
   color: #DDD; }
@@ -140,6 +153,7 @@ body {
   padding: 0;
   float: none;
   visibility: hidden;
-  padding-top: 20px; }
+  padding-top: 20px;
+  display: block; }
 
 /*# sourceMappingURL=code.css.map */
