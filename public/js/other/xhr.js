@@ -20,12 +20,12 @@ document.getElementById("user-login-form").addEventListener("submit",function(e)
     e.preventDefault();
     var user = document.getElementById("user-login-input").value;
     var pw = document.getElementById("user-login-pw").value;
-    var data = user+pw;
+    var data = {
+	'user': user,
+	'pw': pw
+    };
     user_login.style.top = "-9999px";
     xhttp.open("POST","login",true);
     xhttp.setRequestHeader("Content-type","text/plain");
-    if (data == ""){
-	data += "a";
-    }
-    xhttp.send(data);
+    xhttp.send(JSON.stringify(data));
 });
