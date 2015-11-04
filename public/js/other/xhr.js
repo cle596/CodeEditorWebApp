@@ -3,9 +3,12 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     //console.log(xhttp.readyState,xhttp.status);
     if (xhttp.readyState == 4 && xhttp.status == 200) {
-//	console.log(xhttp.responseText);
+	//	console.log(xhttp.responseText);
 	document.getElementById("notification").innerHTML = xhttp.responseText;
 	document.getElementById("notification").style.visibility = "visible";
+	setTimeout(function(){
+	    document.getElementById("notification").innerHTML = " ";
+	},4000);
     }
 }
 

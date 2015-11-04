@@ -2869,3 +2869,89 @@ SyntaxError: Unexpected token o
     at /home/ubuntu/code-editor/login.js:11:9
     at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
     at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
+[33m[nodemon] 1.8.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+SyntaxError: Unexpected token q
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/home/ubuntu/code-editor/login.js:14:18)
+    at IncomingMessage.EventEmitter.emit (events.js:95:17)
+    at IncomingMessage.<anonymous> (_stream_readable.js:746:14)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at emitDataEvents (_stream_readable.js:771:10)
+    at IncomingMessage.Readable.on (_stream_readable.js:692:5)
+    at /home/ubuntu/code-editor/login.js:13:6
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
+SyntaxError: Unexpected token q
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/home/ubuntu/code-editor/login.js:14:18)
+    at IncomingMessage.EventEmitter.emit (events.js:95:17)
+    at IncomingMessage.<anonymous> (_stream_readable.js:746:14)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at emitDataEvents (_stream_readable.js:771:10)
+    at IncomingMessage.Readable.on (_stream_readable.js:692:5)
+    at /home/ubuntu/code-editor/login.js:13:6
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
+SyntaxError: Unexpected token c
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/home/ubuntu/code-editor/login.js:14:18)
+    at IncomingMessage.EventEmitter.emit (events.js:95:17)
+    at IncomingMessage.<anonymous> (_stream_readable.js:746:14)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at emitDataEvents (_stream_readable.js:771:10)
+    at IncomingMessage.Readable.on (_stream_readable.js:692:5)
+    at /home/ubuntu/code-editor/login.js:13:6
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
+SyntaxError: Unexpected token c
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/home/ubuntu/code-editor/login.js:14:18)
+    at IncomingMessage.EventEmitter.emit (events.js:95:17)
+    at IncomingMessage.<anonymous> (_stream_readable.js:746:14)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at emitDataEvents (_stream_readable.js:771:10)
+    at IncomingMessage.Readable.on (_stream_readable.js:692:5)
+    at /home/ubuntu/code-editor/login.js:13:6
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+SyntaxError: Unexpected token c
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/home/ubuntu/code-editor/login.js:14:18)
+    at IncomingMessage.EventEmitter.emit (events.js:95:17)
+    at IncomingMessage.<anonymous> (_stream_readable.js:746:14)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at emitDataEvents (_stream_readable.js:771:10)
+    at IncomingMessage.Readable.on (_stream_readable.js:692:5)
+    at /home/ubuntu/code-editor/login.js:13:6
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+SyntaxError: Unexpected token c
+    at Object.parse (native)
+    at IncomingMessage.<anonymous> (/home/ubuntu/code-editor/login.js:14:18)
+    at IncomingMessage.EventEmitter.emit (events.js:95:17)
+    at IncomingMessage.<anonymous> (_stream_readable.js:746:14)
+    at IncomingMessage.EventEmitter.emit (events.js:92:17)
+    at emitDataEvents (_stream_readable.js:771:10)
+    at IncomingMessage.Readable.on (_stream_readable.js:692:5)
+    at /home/ubuntu/code-editor/login.js:13:6
+    at Layer.handle [as handle_request] (/home/ubuntu/code-editor/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ubuntu/code-editor/node_modules/express/lib/router/route.js:131:13)
