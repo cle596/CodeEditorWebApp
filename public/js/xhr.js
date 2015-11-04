@@ -14,7 +14,7 @@ document.getElementById("save").onclick = function(e){
   xhttp.send(data);
 }
 
-document.getElementById("user-login-submit").submit = function(e){
+document.getElementById("user-login-submit").onclick = function(e){
   var user = document.getElementById("user-login-input").value;
   var pw = document.getElementById("user-login-pw").value;
   var data = user+pw;
