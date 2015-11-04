@@ -10,12 +10,10 @@ module.exports = (function() {
 	    data = data.toString();
 	    if (data == "changhanlee@gmail.comfuckman"){
 		console.log(data);
-		response = "Logged in!";
-		res.send(response);
+		res.send("Logged in!");
 	    }
 	    else{
-		response = "Login Failed!";
-		res.send(response);
+		res.send("Login fail!");
 	    }
 	});
     });
