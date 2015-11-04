@@ -1,3 +1,5 @@
+var express = require('express');
+
 module.exports = (function() {
   'use strict';
   var router = express.Router();
