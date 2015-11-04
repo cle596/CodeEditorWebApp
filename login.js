@@ -1,12 +1,12 @@
 var redis = require("redis");
 var client = redis.createClient();
 var prominence = require("prominence");
-var express = require("express");
-//var express = prominence(require('express'));
+//var express = require("express");
+var express = prominence(require('express'));
 
 module.exports = (function() {
   'use strict';
-  var router = prominence(express.Router());
+  var router = express.Router();
   var logged_in = false;
   var response = "";
   router.post('/login')
@@ -21,6 +21,6 @@ module.exports = (function() {
           }
         });
       });
-    })
+    });
   return router;
 })();
