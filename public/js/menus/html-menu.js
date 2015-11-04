@@ -18,4 +18,12 @@ html.onclick = function(e) {
   if (e.target != help) {
     help_menu.style.left = "-9999px";
   }
+  if (e.target != login &&
+    e.target != user_login &&
+    e.target != user_login_form &&
+    e.target != user_login_input &&
+    e.target != user_login_pw &&
+    e.target != user_login_submit) {
+    user_login.style.top = "-9999px";
+  }
 }
