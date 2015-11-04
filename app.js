@@ -6,10 +6,12 @@ var RedisStore = require('connect-redis')(session);
 var getRawBody = require('raw-body');
 var typer = require('media-typer');
 var bodyParser = require('body-parser');
-var push = require("./push");
+var save = require("./save");
+var login = require("./login");
 var app = express();
 var session_option = require("./session-option");
 app.use(session(session_option)); //order matters
 app.use(express.static('public'));
-app.use('/',push);
+app.use('/',save);
+app.use('/',login);
 app.listen(8000, '0.0.0.0');

@@ -9,7 +9,15 @@ xhttp.onreadystatechange = function() {
 
 document.getElementById("save").onclick = function(e){
   var data = document.getElementById("edit-space").value;
-  xhttp.open("POST","push",true);
+  xhttp.open("POST","save",true);
+  xhttp.setRequestHeader("Content-type","text/plain");
+  xhttp.send(data);
+}
+
+document.getElementById("user-login-submit").onclick = function(e){
+  var user = document.getElementById("user-login-input").value;
+  var pw = document.getElementById("user-login-pw").value;
+  xhttp.open("POST","login",true);
   xhttp.setRequestHeader("Content-type","text/plain");
   xhttp.send(data);
 }
