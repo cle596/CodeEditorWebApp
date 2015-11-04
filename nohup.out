@@ -3052,3 +3052,12 @@ TypeError: 'caller', 'callee', and 'arguments' properties may not be accessed on
 [32m[nodemon] starting `node app.js`[39m
 [32m[nodemon] restarting due to changes...[39m
 [32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node app.js`[39m
+function
