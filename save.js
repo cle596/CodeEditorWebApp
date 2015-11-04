@@ -20,9 +20,9 @@ module.exports = (function() {
         if (err) {
           console.log(err);
         } else {
-            console.log("Uploaded to: " + params.Key);
-            push_data = "";
-	    res.send("Saved to cloud.");
+          console.log("Uploaded to: " + params.Key);
+          push_data = "";
+          res.send("Saved to cloud.");
         }
       });
     });

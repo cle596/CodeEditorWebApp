@@ -8,9 +8,11 @@ var typer = require('media-typer');
 var bodyParser = require('body-parser');
 var save = require("./save");
 var login = require("./login");
+
 var app = express();
 var session_option = require("./session-option");
-app.use(session(session_option)); //order matters
+
+app.use(session(session_option));
 app.use(express.static('public'));
 app.use('/',save);
 app.use('/',login);
