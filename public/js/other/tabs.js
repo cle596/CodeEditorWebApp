@@ -3,10 +3,10 @@ var tab2 = document.getElementById("tab-2");
 var tab3 = document.getElementById("tab-3");
 var tab4 = document.getElementById("tab-4");
 
-var tab1_content = "tab1";
-var tab2_content = "tab2";
-var tab3_content = "tab3";
-var tab4_content = "tab4";
+var tab1_content = "";
+var tab2_content = "";
+var tab3_content = "";
+var tab4_content = "";
 
 var edit_space = document.getElementById("edit-space");
 tab1.addEventListener("click",function(e){
